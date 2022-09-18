@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400&display=swap");
+@font-face {
+  font-family: "Bauhaus";
+  src: url("../fonts/Bauhaus.woff2") format("woff2"),
+    url("../fonts/Bauhaus.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-Regular.woff2.") format("woff2"),
+    url("../fonts/Oswald-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-Medium.woff2") format("woff2"),
+    url("../fonts/Oswald-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-Bold.woff2") format("woff2"),
+    url("../fonts/Oswald-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+body {
+  max-width: 1300px;
+  padding: 20px;
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 1.2;
+}
+a {
+  color: rgb(33, 44, 253);
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 3px 3px 7px rgb(9, 157, 165);
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-shadow: 3px 3px 7px rgb(172, 19, 19);
+}
+h2 + ul {
+  margin-left: 20px;
+  text-indent: 30px;
+}
+h3 {
+  text-align: center;
+  color: rgb(110, 8, 8);
+  text-decoration: line-through;
+}
+h3 ~ p {
+  text-decoration: underline;
+}
+h4 {
+  font-family: "Bauhaus";
+  font-size: 20px;
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+}
+.speech .mariupol {
+  font-family: "Bauhaus";
+  font-size: 25px;
+  text-align: justify;
+}
+.press__text {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(104, 37, 166);
+  margin-bottom: 20px;
+}
+.press__text .press__text-bolvinov {
+  font-weight: 700;
+  color: rgb(13, 126, 88);
+}
+.press__image {
+  margin-bottom: 20px;
+}
+.developments {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.developments > ul {
+  background-color: rgba(10, 232, 236, 0.971);
+}
+.news {
+  font-weight: 600;
+}
+
+.accident {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 25px;
+}
+.nuclear {
+  font-family: "Oswald";
+  font-weight: 700;
+}
